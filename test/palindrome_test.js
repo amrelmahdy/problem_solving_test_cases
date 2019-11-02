@@ -3,6 +3,7 @@ const {isPalindrome} = require("./../palindrome");
 
 
 describe("Palindrome Algorithm", () => {
+
    it("madam is a palindrome", (done) => {
        assert.equal(isPalindrome("madam"), true);
        done();

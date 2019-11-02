@@ -3,9 +3,11 @@ const {reverseString, reverseString2, reverseString3} = require("./../reverse");
 
 
 describe("Reverse A String", () => {
-   it("reversing a string solution#1", (done) => {
-       assert.equal(reverseString("abc"), "cba");
-       done();
+
+
+    it("reversing a string solution#1", (done) => {
+        assert.equal(reverseString("abc"), "cba");
+        done();
     });
 
     it("reversing a string solution#2", (done) => {
